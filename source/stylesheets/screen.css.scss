@@ -2,6 +2,8 @@
 @import 'normalize';
 @import 'variables';
 @import 'icon-font';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 // @import 'rtl'; // uncomment to switch to RTL format
 
 /*
@@ -76,6 +78,8 @@ html, body {
     display: block;
     max-width: 100%;
     margin-bottom: $logo-margin;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   &>.search {
